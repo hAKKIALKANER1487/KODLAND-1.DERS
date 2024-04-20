@@ -1,0 +1,18 @@
+meme_dict = {
+    "CRİNGE":"Garip ya da utandırıcı bir şey",
+    "LOL":"Komik bir şeye verilen cevap",
+    "BTW":"Bu arada",
+    "WOMP WOMP": "Banane",
+    "NUH UH":"Hayır",
+}
+
+print("Sözlük Uygulamasına Hoş Geldiniz")
+print("Lütfen anlamını merak ettiğiniz kelimeleri büyük harflerle yazarak belirtin.")
+
+for _ in range(5):
+    word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+    
+    if word in meme_dict():
+        print("Anlamı:", meme_dict[word])
+else:
+    print("Üzgünüm dediğiniz kelimeyi sözlükte bulamadım.")
